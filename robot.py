@@ -9,3 +9,8 @@ wheels = 4
 
 print("Заряд батареи:", battery_level, "%")
 print("Количество колёс:", wheels)
+
+if battery_level >50:
+    print("Робот полон сил и готов к работе!")
+else:
+    print("Роботу нужно зарядиться.")
